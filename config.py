@@ -5,11 +5,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API credentials
-API_ID = int(os.getenv("API_ID", 24089031))  # Default value provided as 24089031
-API_HASH = os.getenv("API_HASH", "0615e3afe13ddaaf8e9ddbd3977d35ff")
+API_ID = int(os.getenv("API_ID", ))  # Default value provided as 
+API_HASH = os.getenv("API_HASH", "")
 
 # Bot token
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7771917183:AAH-AEqm3VJa1S5BChBNdWivCC0LVlGAoLk")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 
 # Owner and Sudoers
 OWNER_ID = int(os.getenv("OWNER_ID", 6806897901))  # Default OWNER_ID
